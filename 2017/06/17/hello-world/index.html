@@ -93,12 +93,16 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="孤竹莫">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta name="description" content="hexo 首先需要创建静态页面hexo : 1.所有操作要在node.js(7以上)的环境下进行; 2.还有我们需要上传到githun上关联，所有需要有一个githun账号(一个githun账号只能关联一个hexo);同时还需要安装git,不可缺少； 3.创建一个博客文件夹并点击进去(如：gold) 4.安装hexo:npm install -g hexo; 5.创建一个博客文件夹(如:golb)">
+<meta property="og:type" content="article">
+<meta property="og:title" content="hexo+githun 创建">
+<meta property="og:url" content="http://yoursite.com/2017/06/17/hello-world/index.html">
 <meta property="og:site_name" content="孤竹莫">
+<meta property="og:description" content="hexo 首先需要创建静态页面hexo : 1.所有操作要在node.js(7以上)的环境下进行; 2.还有我们需要上传到githun上关联，所有需要有一个githun账号(一个githun账号只能关联一个hexo);同时还需要安装git,不可缺少； 3.创建一个博客文件夹并点击进去(如：gold) 4.安装hexo:npm install -g hexo; 5.创建一个博客文件夹(如:golb)">
+<meta property="og:updated_time" content="2017-06-17T11:47:04.632Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="孤竹莫">
+<meta name="twitter:title" content="hexo+githun 创建">
+<meta name="twitter:description" content="hexo 首先需要创建静态页面hexo : 1.所有操作要在node.js(7以上)的环境下进行; 2.还有我们需要上传到githun上关联，所有需要有一个githun账号(一个githun账号只能关联一个hexo);同时还需要安装git,不可缺少； 3.创建一个博客文件夹并点击进去(如：gold) 4.安装hexo:npm install -g hexo; 5.创建一个博客文件夹(如:golb)">
 
 
 
@@ -126,13 +130,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/"/>
+  <link rel="canonical" href="http://yoursite.com/2017/06/17/hello-world/"/>
 
 
 
 
 
-  <title>孤竹莫</title>
+  <title>hexo+githun 创建 | 孤竹莫</title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="">
@@ -158,9 +162,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-   page-home 
- ">
+  <div class="container sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -243,9 +245,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -271,9 +273,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/06/17/hello-world/" itemprop="url">hexo+githun 创建</a></h1>
+          <h1 class="post-title" itemprop="name headline">hexo+githun 创建</h1>
         
 
         <div class="post-meta">
@@ -320,9 +320,7 @@
       
 
       
-        
-          
-            <h3 id="hexo"><a href="#hexo" class="headerlink" title="hexo"></a>hexo</h3><ul>
+        <h3 id="hexo"><a href="#hexo" class="headerlink" title="hexo"></a>hexo</h3><ul>
 <li>首先需要创建静态页面hexo :</li>
 <li>1.所有操作要在<strong>node.js(7以上)</strong>的环境下进行;</li>
 <li>2.还有我们需要上传到githun上关联，所有需要有一个<strong>githun账号</strong>(一个githun账号只能关联一个hexo);同时还需要<strong>安装git</strong>,不可缺少；</li>
@@ -373,20 +371,27 @@
 <li>hexo version #查看Hexo的版本</li>
 </ul>
 
-          
+      
+    </div>
+
+    <div>
+      
         
+
       
     </div>
 
     <div>
       
-    </div>
+        
 
-    <div>
       
     </div>
 
     <div>
+      
+        
+
       
     </div>
 
@@ -394,21 +399,22 @@
       
 
       
+      
+      
 
       
 
       
-      
-        <div class="post-eof"></div>
       
     </footer>
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -416,6 +422,10 @@
 
 
           
+  <div class="comments" id="comments">
+    
+  </div>
+
 
         </div>
         
@@ -435,8 +445,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            Inhaltsverzeichnis
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Übersicht
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.gif"
@@ -480,6 +499,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#hexo"><span class="nav-number">1.</span> <span class="nav-text">hexo</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#hexo-githun"><span class="nav-number">2.</span> <span class="nav-text">hexo + githun</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#修改hexo主题"><span class="nav-number"></span> <span class="nav-text">修改hexo主题</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#部署步骤"><span class="nav-number">1.</span> <span class="nav-text">部署步骤</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#一些常用命令："><span class="nav-number">2.</span> <span class="nav-text">一些常用命令：</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -593,10 +628,10 @@
   
 
   
-    <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.1"></script>
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.1"></script>
 <script type="text/javascript" src="/js/src/post-details.js?v=5.1.1"></script>
 
-  
+
 
   
 
