@@ -77,7 +77,7 @@
 <link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="Testing,Another Tag," />
 
 
 
@@ -94,12 +94,13 @@
 
 
 <meta name="description" content="hexo 首先需要创建静态页面hexo : 1.所有操作要在node.js(7以上)的环境下进行; 2.还有我们需要上传到githun上关联，所有需要有一个githun账号(一个githun账号只能关联一个hexo);同时还需要安装git,不可缺少； 3.创建一个博客文件夹并点击进去(如：gold) 4.安装hexo:npm install -g hexo; 5.创建一个博客文件夹(如:golb)">
+<meta name="keywords" content="Testing,Another Tag">
 <meta property="og:type" content="article">
 <meta property="og:title" content="hexo+githun 创建">
 <meta property="og:url" content="http://yoursite.com/2017/06/17/hello-world/index.html">
 <meta property="og:site_name" content="孤竹莫">
 <meta property="og:description" content="hexo 首先需要创建静态页面hexo : 1.所有操作要在node.js(7以上)的环境下进行; 2.还有我们需要上传到githun上关联，所有需要有一个githun账号(一个githun账号只能关联一个hexo);同时还需要安装git,不可缺少； 3.创建一个博客文件夹并点击进去(如：gold) 4.安装hexo:npm install -g hexo; 5.创建一个博客文件夹(如:golb)">
-<meta property="og:updated_time" content="2017-06-17T11:47:04.632Z">
+<meta property="og:updated_time" content="2017-06-17T12:09:38.215Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hexo+githun 创建">
 <meta name="twitter:description" content="hexo 首先需要创建静态页面hexo : 1.所有操作要在node.js(7以上)的环境下进行; 2.还有我们需要上传到githun上关联，所有需要有一个githun账号(一个githun账号只能关联一个hexo);同时还需要安装git,不可缺少； 3.创建一个博客文件夹并点击进去(如：gold) 4.安装hexo:npm install -g hexo; 5.创建一个博客文件夹(如:golb)">
@@ -137,10 +138,6 @@
 
 
   <title>hexo+githun 创建 | 孤竹莫</title>
-</head>
-
-<body itemscope itemtype="http://schema.org/WebPage" lang="">
-
   
 
 
@@ -156,6 +153,9 @@
 
 
 
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="">
 
   
   
@@ -178,7 +178,7 @@
       </a>
     </div>
       
-        <p class="site-subtitle"></p>
+        <p class="site-subtitle">馒头蘸墨是什么味道，你们知道吗？我想尝尝！</p>
       
   </div>
 
@@ -203,7 +203,27 @@
             
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
             
-            Startseite
+            Home
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            Categories
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            About
           </a>
         </li>
       
@@ -213,7 +233,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
             
-            Archiv
+            Archives
           </a>
         </li>
       
@@ -255,7 +275,7 @@
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-tags " itemscope itemtype="http://schema.org/Article">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/06/17/hello-world/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -283,9 +303,9 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-06-17T19:47:04+08:00">
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-06-17T20:09:38+08:00">
                 2017-06-17
               </time>
             
@@ -295,6 +315,28 @@
             
           </span>
 
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Testing/" itemprop="url" rel="index">
+                    <span itemprop="name">Testing</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
           
 
           
@@ -330,7 +372,7 @@
 <li>6.安装hexo:<strong> npm install -g hexo </strong>;</li>
 <li>7.初始化hexo: <strong>hexo init</strong>;</li>
 <li>8.生成静态页面：<strong>hexo generate</strong>(可简化成hexo g);</li>
-<li>9.本地启动：<strong>hexo server</strong>(简化hexo s;默认端口号：<a href="http://localhost:4000);自定义：hexo" target="_blank" rel="external">http://localhost:4000);自定义：hexo</a> server -p 端口号;<blockquote>
+<li>9.本地启动：<strong>hexo server</strong> (简化hexo s;默认端口号：<a href="http://localhost:4000" target="_blank" rel="external">http://localhost:4000</a>); 自定义：hexo server -p 端口号;<blockquote>
 <p>静态的hexo页面已经完成，在浏览器上访问已经生成的端口号就能查看到；</p>
 </blockquote>
 </li>
@@ -397,6 +439,14 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/Testing/" rel="tag"># Testing</a>
+          
+            <a href="/tags/Another-Tag/" rel="tag"># Another Tag</a>
+          
+        </div>
+      
 
       
       
@@ -447,10 +497,10 @@
       
         <ul class="sidebar-nav motion-element">
           <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
-            Inhaltsverzeichnis
+            Table of Contents
           </li>
           <li class="sidebar-nav-overview" data-target="site-overview">
-            Übersicht
+            Overview
           </li>
         </ul>
       
@@ -471,13 +521,31 @@
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
                 <span class="site-state-item-count">1</span>
-                <span class="site-state-item-name">Artikel</span>
+                <span class="site-state-item-name">posts</span>
               </a>
             </div>
           
 
           
+            
+            
+            <div class="site-state-item site-state-categories">
+              <a href="/categories/index.html">
+                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-name">categories</span>
+              </a>
+            </div>
+          
 
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              <a href="/tags/index.html">
+                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-name">tags</span>
+              </a>
+            </div>
           
 
         </nav>
@@ -541,7 +609,7 @@
 
 
 <div class="powered-by">
-  Erstellt mit  <a class="theme-link" href="https://hexo.io">Hexo</a>
+  Powered by <a class="theme-link" href="https://hexo.io">Hexo</a>
 </div>
 
 <div class="theme-info">
