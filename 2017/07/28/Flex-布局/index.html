@@ -93,13 +93,13 @@
 
 
 
-<meta name="description" content="一、Flex 布局是什么？ Flex 是 Flexible Box 的缩写，意为”弹性布局”，用来为盒状模型提供最大的灵活性。任何一个容器都可以指定为 Flex 布局。1234567891011121314.box&amp;#123;  display: flex;&amp;#125;//行内元素也可以使用 Flex 布局。.box&amp;#123;  display: inline-flex;&amp;#125;//Webk">
+<meta name="description" content="注意: Internet Explorer 9 及更早版本不支持 flex 属性。 注意: Internet Explorer 10 通过 -ms-flex 属性来支持。 IE11 及更新版本完全支持 flex 属性 (不需要 -ms- 前缀)。 注意: Safari 6.1 (及更新浏览器) 通过 -webkit-flex 属性支持。 浏览器支持 Chrome: -webkit-Firefox:">
 <meta name="keywords" content="flex">
 <meta property="og:type" content="article">
 <meta property="og:title" content="flex页面布局">
 <meta property="og:url" content="http://yoursite.com/2017/07/28/Flex-布局/index.html">
 <meta property="og:site_name" content="孤竹莫">
-<meta property="og:description" content="一、Flex 布局是什么？ Flex 是 Flexible Box 的缩写，意为”弹性布局”，用来为盒状模型提供最大的灵活性。任何一个容器都可以指定为 Flex 布局。1234567891011121314.box&amp;#123;  display: flex;&amp;#125;//行内元素也可以使用 Flex 布局。.box&amp;#123;  display: inline-flex;&amp;#125;//Webk">
+<meta property="og:description" content="注意: Internet Explorer 9 及更早版本不支持 flex 属性。 注意: Internet Explorer 10 通过 -ms-flex 属性来支持。 IE11 及更新版本完全支持 flex 属性 (不需要 -ms- 前缀)。 注意: Safari 6.1 (及更新浏览器) 通过 -webkit-flex 属性支持。 浏览器支持 Chrome: -webkit-Firefox:">
 <meta property="og:image" content="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071004.png">
 <meta property="og:image" content="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071005.png">
 <meta property="og:image" content="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071006.png">
@@ -113,10 +113,10 @@
 <meta property="og:image" content="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071014.png">
 <meta property="og:image" content="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071015.jpg">
 <meta property="og:image" content="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071016.png">
-<meta property="og:updated_time" content="2017-07-30T12:17:20.545Z">
+<meta property="og:updated_time" content="2017-07-30T12:46:56.045Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="flex页面布局">
-<meta name="twitter:description" content="一、Flex 布局是什么？ Flex 是 Flexible Box 的缩写，意为”弹性布局”，用来为盒状模型提供最大的灵活性。任何一个容器都可以指定为 Flex 布局。1234567891011121314.box&amp;#123;  display: flex;&amp;#125;//行内元素也可以使用 Flex 布局。.box&amp;#123;  display: inline-flex;&amp;#125;//Webk">
+<meta name="twitter:description" content="注意: Internet Explorer 9 及更早版本不支持 flex 属性。 注意: Internet Explorer 10 通过 -ms-flex 属性来支持。 IE11 及更新版本完全支持 flex 属性 (不需要 -ms- 前缀)。 注意: Safari 6.1 (及更新浏览器) 通过 -webkit-flex 属性支持。 浏览器支持 Chrome: -webkit-Firefox:">
 <meta name="twitter:image" content="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071004.png">
 
 
@@ -217,7 +217,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
             
-            Startseite
+            Home
           </a>
         </li>
       
@@ -227,7 +227,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
             
-            Kategorien
+            Categories
           </a>
         </li>
       
@@ -237,7 +237,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
             
-            Über
+            About
           </a>
         </li>
       
@@ -247,7 +247,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
             
-            Archiv
+            Archives
           </a>
         </li>
       
@@ -317,7 +317,7 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">Posted on</span>
               
               <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-07-28T19:18:27+08:00">
                 2017-07-28
@@ -338,7 +338,7 @@
                 <i class="fa fa-folder-o"></i>
               </span>
               
-                <span class="post-meta-item-text">in</span>
+                <span class="post-meta-item-text">In</span>
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
@@ -376,7 +376,17 @@
       
 
       
-        <h2 id="一、Flex-布局是什么？"><a href="#一、Flex-布局是什么？" class="headerlink" title="一、Flex 布局是什么？"></a>一、Flex 布局是什么？</h2><ul>
+        <p><strong>注意: Internet Explorer 9 及更早版本不支持 flex 属性。</strong></p>
+<p><strong>注意: Internet Explorer 10 通过 -ms-flex 属性来支持。 IE11 及更新版本完全支持 flex 属性 (不需要 -ms- 前缀)。</strong></p>
+<p><strong>注意: Safari 6.1 (及更新浏览器) 通过 -webkit-flex 属性支持。</strong></p>
+<h3 id="浏览器支持"><a href="#浏览器支持" class="headerlink" title="浏览器支持"></a>浏览器支持</h3><blockquote>
+<p>Chrome: -webkit-<br>Firefox: -moz-<br>Safari: -webkit-<br>IE : -ms- 兼容10以上</p>
+</blockquote>
+<h2 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">flex: flex-grow flex-shrink flex-basis|auto|initial|inherit;</div></pre></td></tr></table></figure>
+<blockquote>
+<p>flex-grow     一个数字，规定项目将相对于其他灵活的项目进行扩展的量。<br>flex-shrink  一个数字，规定项目将相对于其他灵活的项目进行收缩的量。<br>flex-basis  项目的长度。合法值：”auto”、”inherit” 或一个后跟 “%”、”px”、”em” 或任何其他长度单位的数字。<br>auto      与 1 1 auto 相同。<br>none  与 0 0 auto 相同。<br>initial  设置该属性为它的默认值，即为 0 1 auto。<br>inherit       从父元素继承该属性.</p>
+</blockquote>
+<h2 id="一、Flex-布局是什么？"><a href="#一、Flex-布局是什么？" class="headerlink" title="一、Flex 布局是什么？"></a>一、Flex 布局是什么？</h2><ul>
 <li>Flex 是 Flexible Box 的缩写，意为”弹性布局”，用来为盒状模型提供最大的灵活性。<br>任何一个容器都可以指定为 Flex 布局。<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line">.box&#123;</div><div class="line">  display: flex;</div><div class="line">&#125;</div><div class="line">//行内元素也可以使用 Flex 布局。</div><div class="line"></div><div class="line">.box&#123;</div><div class="line">  display: inline-flex;</div><div class="line">&#125;</div><div class="line">//Webkit 内核的浏览器，必须加上-webkit前缀。</div><div class="line"></div><div class="line">.box&#123;</div><div class="line">  display: -webkit-flex; /* Safari */</div><div class="line">  display: flex;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 </li>
 </ul>
@@ -510,10 +520,10 @@
       
         <ul class="sidebar-nav motion-element">
           <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
-            Inhaltsverzeichnis
+            Table of Contents
           </li>
           <li class="sidebar-nav-overview" data-target="site-overview">
-            Übersicht
+            Overview
           </li>
         </ul>
       
@@ -534,7 +544,7 @@
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
                 <span class="site-state-item-count">3</span>
-                <span class="site-state-item-name">Artikel</span>
+                <span class="site-state-item-name">posts</span>
               </a>
             </div>
           
@@ -545,7 +555,7 @@
             <div class="site-state-item site-state-categories">
               <a href="/categories/index.html">
                 <span class="site-state-item-count">2</span>
-                <span class="site-state-item-name">Kategorien</span>
+                <span class="site-state-item-name">categories</span>
               </a>
             </div>
           
@@ -556,7 +566,7 @@
             <div class="site-state-item site-state-tags">
               <a href="/tags/index.html">
                 <span class="site-state-item-count">4</span>
-                <span class="site-state-item-name">Tags</span>
+                <span class="site-state-item-name">tags</span>
               </a>
             </div>
           
@@ -590,7 +600,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#一、Flex-布局是什么？"><span class="nav-number">1.</span> <span class="nav-text">一、Flex 布局是什么？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#二、基本概念"><span class="nav-number">2.</span> <span class="nav-text">二、基本概念</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#三、容器的属性"><span class="nav-number">3.</span> <span class="nav-text">三、容器的属性</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#3-1-flex-direction属性"><span class="nav-number">3.0.1.</span> <span class="nav-text">3.1 flex-direction属性</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-2-flex-wrap属性"><span class="nav-number">3.0.2.</span> <span class="nav-text">3.2 flex-wrap属性</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-3-flex-flow"><span class="nav-number">3.0.3.</span> <span class="nav-text">3.3 flex-flow</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-5-align-items属性"><span class="nav-number">3.0.4.</span> <span class="nav-text">3.5 align-items属性</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-6-align-content属性"><span class="nav-number">3.0.5.</span> <span class="nav-text">3.6 align-content属性</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#四、项目的属性"><span class="nav-number">4.</span> <span class="nav-text">四、项目的属性</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#4-1-order属性"><span class="nav-number">4.0.1.</span> <span class="nav-text">4.1 order属性</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-2-flex-grow属性"><span class="nav-number">4.0.2.</span> <span class="nav-text">4.2 flex-grow属性</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-3-flex-shrink属性"><span class="nav-number">4.0.3.</span> <span class="nav-text">4.3 flex-shrink属性</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#flex-basis属性"><span class="nav-number">4.0.4.</span> <span class="nav-text">flex-basis属性</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-5-flex属性"><span class="nav-number">4.0.5.</span> <span class="nav-text">4.5 flex属性</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-6-align-self属性"><span class="nav-number">4.0.6.</span> <span class="nav-text">4.6 align-self属性</span></a></li></ol></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#浏览器支持"><span class="nav-number">1.</span> <span class="nav-text">浏览器支持</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#语法"><span class="nav-number"></span> <span class="nav-text">语法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#一、Flex-布局是什么？"><span class="nav-number"></span> <span class="nav-text">一、Flex 布局是什么？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#二、基本概念"><span class="nav-number"></span> <span class="nav-text">二、基本概念</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#三、容器的属性"><span class="nav-number"></span> <span class="nav-text">三、容器的属性</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#3-1-flex-direction属性"><span class="nav-number">0.1.</span> <span class="nav-text">3.1 flex-direction属性</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-2-flex-wrap属性"><span class="nav-number">0.2.</span> <span class="nav-text">3.2 flex-wrap属性</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-3-flex-flow"><span class="nav-number">0.3.</span> <span class="nav-text">3.3 flex-flow</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-5-align-items属性"><span class="nav-number">0.4.</span> <span class="nav-text">3.5 align-items属性</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-6-align-content属性"><span class="nav-number">0.5.</span> <span class="nav-text">3.6 align-content属性</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#四、项目的属性"><span class="nav-number"></span> <span class="nav-text">四、项目的属性</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#4-1-order属性"><span class="nav-number">0.1.</span> <span class="nav-text">4.1 order属性</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-2-flex-grow属性"><span class="nav-number">0.2.</span> <span class="nav-text">4.2 flex-grow属性</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-3-flex-shrink属性"><span class="nav-number">0.3.</span> <span class="nav-text">4.3 flex-shrink属性</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#flex-basis属性"><span class="nav-number">0.4.</span> <span class="nav-text">flex-basis属性</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-5-flex属性"><span class="nav-number">0.5.</span> <span class="nav-text">4.5 flex属性</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-6-align-self属性"><span class="nav-number">0.6.</span> <span class="nav-text">4.6 align-self属性</span></a></li></ol></li></ol></div>
             
 
           </div>
@@ -622,7 +632,7 @@
 
 
 <div class="powered-by">
-  Erstellt mit  <a class="theme-link" href="https://hexo.io">Hexo</a>
+  Powered by <a class="theme-link" href="https://hexo.io">Hexo</a>
 </div>
 
 <div class="theme-info">
